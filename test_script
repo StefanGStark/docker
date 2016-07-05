@@ -1,0 +1,8 @@
+#!/bin/bash
+
+indir=$1
+for fname in ${indir}/*.txt; do
+    touch ${fname}.done
+done
+
+
